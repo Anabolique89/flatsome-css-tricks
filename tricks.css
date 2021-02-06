@@ -22,6 +22,7 @@ and relative weight (you can check the weights at https://developer.mozilla.org/
   font-display: swap;
 }
 
+
 /* Apply the new fonts */
 
 /* Body, buttons and paragraphs */
@@ -38,9 +39,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-/* Menu */
+/* Desktop Menu */
 
 .nav > li > a {
+    font-family: "Karla", Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Mobile Menu */
+
+.off-canvas-center .nav-sidebar.nav-vertical > li > a {
     font-family: "Karla", Arial, sans-serif;
     font-weight: 700;
 }
@@ -61,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-spacing-xlarge > li {
     margin: 0 30px; /* Increase the second value */
 }
+
 
 /* Add a smooth color transition when hovering menu items */
 /* You can change the ms by increasing or decreasing the .3s value, e.g. 500ms = .5s */
@@ -100,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-dropdown > li:last-child:not(.nav-dropdown-col) > a {
     margin-bottom: 0;
 }
+
 
 /* Change the dropdown menu item color and background hover color */
 
@@ -151,14 +161,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Set a better accordion inner padding */
 
 .accordion-inner {
-    padding: 10px 40px 0 5px; /* You can change it if you want, but I think this is just perfect */
+    padding: 10px 40px 0 5px; /* You can change them if you want, but I think this is just perfect */
 }
 
 /* Style the accordion title */
 
 .accordion-title {
     border-top: 1px solid #ddd; /* Change border color and width */
-    padding: 15px 40px 15px 0; /* Change accordion title paddings */
+    padding: 15px 40px 15px 0; /* You can change them if you want, but I think this is just perfect */
 }
 
 /* Style the accordion active title */
@@ -340,27 +350,51 @@ you will need to inspect again the menu with your browser and replace the ID. */
 }
 
 
-/* Menu entries hover color */
+/* Change menu entries text color */
 
-.nav > li > a:hover, .nav > li.active > a{
+.nav > li > a, .links > li > a {
+    color: color: #39cccc; /* Change color */
+}
+    
+
+/* Menu entries hover and active text color */
+
+.nav > li > a:hover, .nav > li.active > a {
+    color: #39cccc !important; /* Change color */
+}
+
+
+/* Menu entries background color on hover */
+
+.nav-sidebar.nav-vertical > li.menu-item:hover {
+    background-color: #eff0ef; /* Change color */
+}
+
+
+/* Dropdown entries hover color */
+/* This snippet will only work if you are using a sidebar menu appearing from right */
+
+.nav-vertical > li > ul li a:hover {
     color: #39cccc; /* Change color */
 }
 
+
+/* Align menu items to the left */
+/* This snippet will only work if you are using a fullscreen menu */
+
+.off-canvas-center .text-center {
+    text-align: left; /* Change the alignment, you can set "right" as well */
+}
+
+
 /* Change fullscreen menu color and opacity */
-/* This snippet will work only if you have set in Flatsome your mobile menu as fullscreen */
+/* This snippet will only work if you are using a fullscreen menu */
 
 .mfp-bg.off-canvas-center:not(.dark) {
     background-color: #fff; /* Change color */
     opacity: 1; /* Decrease opacity */
 }
 
-
-/* Dropdown entries hover color */
-/* This snippet will work only if you are using a sidebar menu appearing from right */
-
-.nav-vertical > li > ul li a:hover {
-    color: #39cccc; /* Change color */
-}
 
 /* Remove the overlay for the mobile menu */
 /* This snippet will work only if you are using a sidebar menu */
