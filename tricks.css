@@ -1,9 +1,10 @@
 /********************************************************** ALL SCREENS **********************************************************/
 
 /***************************** CUSTOM FONTS *****************************/
-/* First upload your fonts via FTP, then include them in your CSS and apply them. In this case I used the same font family, bold is
-identified by "font-weight: 700", so basically I have uploaded two separate files per weight and declared them with the same font-family name
-and a different weight property. */
+/* First upload your fonts via FTP, then include them in your CSS and apply them. In this case I used the same font family with two different weights, bold is
+identified by "700", so basically I have uploaded two separate files per weight and declared them with the same font-family name
+and a different weight property. In case you want to upload three or more weights of the same family, you will need to declare them one by one with the same name
+and relative weight (you can check the weights at https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight), then apply the desired weight to your elements.*/
 
 /* Fonts declaration */
 
@@ -23,15 +24,21 @@ and a different weight property. */
 
 /* Apply the new fonts */
 
+/* Body, buttons and paragraphs */
+
 body, p { 
     font-family: "Karla", Arial, sans-serif;
     font-weight: 400;
 }
 
+/* Headings */
+
 h1, h2, h3, h4, h5, h6 { 
     font-family: "Karla", Arial, sans-serif;
     font-weight: 700;
 }
+
+/* Menu */
 
 .nav > li > a {
     font-family: "Karla", Arial, sans-serif;
@@ -52,23 +59,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Just set from the theme settings the maximum spacing option available then, paste the code and then increase the second value (30px) as maximum as you wish */
 
 .nav-spacing-xlarge > li {
-    margin: 0 30px;
+    margin: 0 30px; /* Increase the second value */
 }
 
 /* Add a smooth color transition when hovering menu items */
 /* You can change the ms by increasing or decreasing the .3s value, e.g. 500ms = .5s */
 
 .nav > li {
-    -webkit-transition: background-color .3s;
-    -o-transition: background-color .3s;
-    transition: background-color .3s;
+    -webkit-transition: background-color .3s; /* Increase or decrease the timing */
+    -o-transition: background-color .3s; /* Increase or decrease the timing */
+    transition: background-color .3s; /* Increase or decrease the timing */
 }
 
 /* Increase items size */
-/* Note: this code will work if you set from the theme settings the maximum menu items spacing available. /
+/* Note: this code will work if you set from the theme settings the maximum menu items spacing available. */
 
 .nav-size-xlarge > li > a {
-    font-size: 1.1em;
+    font-size: 1.1em; /* Increase or decrease size */
 }
 
 
@@ -85,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Increase or decrease dropdown popup width */
 
 .nav-dropdown {
-    min-width: 230px;
+    min-width: 230px; /* Increase or decrease the width */
 }
 
 /* Remove the default extra margin for the last dropdown menu item */
@@ -97,14 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Change the dropdown menu item color and background hover color */
 
 .nav-dropdown > li > a:hover {
-    color: #4600ad;
-    background-color: #fceff8 !important;
+    color: #4600ad; /* Change color */
+    background-color: #fceff8 !important; /* Change color */
 }
 
 /* Change the dropdown menu active link color */
 
 .nav-dropdown li.active > a {
-    color: #ff25c0;
+    color: #ff25c0; /* Change color */
 }
 
 
@@ -144,24 +151,25 @@ h1, h2, h3, h4, h5, h6 {
 /* Set a better accordion inner padding */
 
 .accordion-inner {
-    padding: 10px 40px 0 5px;
+    padding: 10px 40px 0 5px; /* You can change it if you want, but I think this is just perfect */
 }
 
 /* Style the accordion title */
 
 .accordion-title {
-    border-top: 1px solid #ddd;
-    padding: 15px 40px 15px 0;
+    border-top: 1px solid #ddd; /* Change border color and width */
+    padding: 15px 40px 15px 0; /* Change accordion title paddings */
 }
 
 /* Style the accordion active title */
 
 .accordion-title.active {
-    background-color: transparent;
-    border-color: #ff25c0;
-    color: #ff25c0;
-    border-top:3px solid #ff25c0;
-    padding-left: 5px;
+    background-color: transparent; /* Add an HEX color instead of transparent if you want a coloured background */
+    border-color: #ff25c0; /* Change border color */
+    color: #ff25c0; /* Change text color */
+    font-weight: 700; /* Change font weight */
+    border-top: 3px solid #ff25c0; /* Change border color */
+    padding-left: 5px; /* Change left padding, 5px is just fine */
 }
 
 
@@ -170,8 +178,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Change marker background color and text color, when used from the text editor */
 
 mark {
-    background-color: #39cccc;
-    color: #fff;
+    background-color: #39cccc; /* Change background color */
+    color: #fff; /* Change text color */
 }
 
 
@@ -180,25 +188,25 @@ mark {
 /* Add border radius to slider's images, increase or decrease the value as you wish */
 
 .flickity-viewport {
-    border-radius: 10px;
+    border-radius: 10px; /* Increase or decrease the radius as you wish */
 }
 
 /* Change previous/next arrow color */
 
 .flickity-prev-next-button svg, .flickity-prev-next-button .arrow {
-    fill: #777;
+    fill: #777; /* Change the color */
 }
 
 /* Change dots color and size */
 
 .flickity-page-dots .dot.is-selected {
-    background-color: #00acad; /* Change color */
+    background-color: #00acad; /* Change the color */
 }
 
 .flickity-page-dots .dot {
     border: 3px solid #00acad; /* Change color border */
-    width: 16px; /* Change size */
-    height: 16px; /* Change size */
+    width: 16px; /* Increase or decrease size */
+    height: 16px; /* Increase or decrease size */
 }
 
 
@@ -244,8 +252,8 @@ mark {
 
 /* Flatsome has a default value for right/left padding of 20px, which in many cases can't be enough,
 the first value represents the top padding, the second value (30px) represents the left-right padding, the last the bottom padding,
-you can increase or decrease it as you prefer, personally I would touch only the second value related to the left-right padding, basically they are the margins
-of your container. */
+you can increase or decrease it as you prefer, personally I would only tourch the second value related to the left-right padding, basically they are the margins
+of your container and that's what I always needed to modify. */
 
 .col {
     padding: 0 30px 20px;
@@ -257,7 +265,7 @@ of your container. */
 /* Force the desidered logo width on tablets/mobile */
 
 #logo {
-    width: 120px;
+    width: 120px; /* Increase or decrease size */
 }
 
 
@@ -266,23 +274,24 @@ of your container. */
 /* Add an icon before each menu entry */
 /* Inspect your mobile menu with your browser, each menu item has an unique HTML ID (in my case is 44), then replace it and add your own svg icon,
 you will need to paste again the code for each menu item you want an icon applied, when you create your icon with illustrator remember to design it
-with a specific width and height (in my case is 26px) then, replace the values to match your size. */
+with a specific width and height (in my case is 26px) then, replace the values to match your size. If you delete that menu item from Menu > Appearance,
+you will need to inspect again the menu with your browser and replace the ID. */
 
 #menu-item-44:before {
   margin-left: 30px;
   display: block;
   content: ' ';
-  background-image: url('https://yourwesite.com/svg/people.svg');
-  background-size: 26px 26px;
-  height: 26px;
-  width: 26px;
+  background-image: url('https://yourwesite.com/svg/people.svg'); /* Change with your URL */
+  background-size: 26px 26px; /* Increase or decrease size */
+  height: 26px; /* Increase or decrease size */
+  width: 26px; /* Increase or decrease size */
 }
 
 /* Remove the overlay for the mobile menu */
 /* This snippet will work only if you are using a sidebar menu */
 
 .main-menu-overlay {
-    background-color: transparent;
+    background-color: transparent; /* Set a color or leave transparent */
 }
 
 /* Increase or decrease hamburger icon size */
