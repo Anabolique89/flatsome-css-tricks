@@ -51,6 +51,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 30px;
 }
 
+/* Add a smooth color transition when hovering menu items */
+
+.nav > li {
+    -webkit-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+
 /*************** DROPDOWN MENU ***************/
 
 /* Better position the arrow at the right of the menu item */
@@ -95,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white; /* Change background color */
     border-bottom: 1px solid #d3d3d3; /* Change border bottom color */
 }
+
 
 /***************************** FOOTER STYLING *****************************/
 
