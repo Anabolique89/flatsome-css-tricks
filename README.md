@@ -1,5 +1,4 @@
-# flatsome
-Flatsome CSS Tricks and Fixes
+# Flatsome CSS Tricks and Fixes
 
 Hi guys, since a couple of months I am not developing Wordpress websites with Flatsome anymore, I have decided to put up a document including the CSS tricks and fixes that I used most during the past years as a farewell gift.
 
