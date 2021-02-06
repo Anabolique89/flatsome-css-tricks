@@ -41,7 +41,54 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
 }
 
-/***************************** STICKY HEADER *****************************/
+
+/***************************** HEADER *****************************/
+
+/* Increase the maximum menu items spacing */
+/* Just set from the theme settings the maximum spacing option available then, paste the code and then increase the second value as maximum as you wish */
+
+.nav-spacing-xlarge > li {
+    margin: 0 30px;
+}
+
+/*************** DROPDOWN MENU ***************/
+
+/* Better position the arrow at the right of the menu item */
+
+.has-dropdown .icon-angle-down {
+    opacity: 1;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+/* Increase or decrease dropdown popup width */
+
+.nav-dropdown {
+    min-width: 230px;
+    padding: 10px 0 10px;
+}
+
+/* Remove the default extra margin for the last dropdown menu item */
+
+.nav-dropdown>li:last-child:not(.nav-dropdown-col)>a {
+    margin-bottom: 0;
+}
+
+/* Change the dropdown menu item color and background hover color */
+
+.nav-dropdown>li>a:hover {
+    color: #4600ad;
+    background-color: #fceff8 !important;
+}
+
+/* Change the dropdown menu active link color */
+
+.nav-dropdown li.active>a {
+    color: #ff25c0;
+}
+
+
+/*************** STICKY HEADER ***************/
 
 .header-wrapper.stuck {
     box-shadow: none; /* Remove shadow */
@@ -132,45 +179,6 @@ mark {
     border: 3px solid #00acad;
     width: 16px;
     height: 16px;
-}
-
-
-
-
-/***************************** MENU DROPDOWN STYLING *****************************/
-
-/* Better position the arrow at the right of the menu item */
-
-.has-dropdown .icon-angle-down {
-    opacity: 1;
-    margin-top: 3px;
-    margin-left: 6px;
-}
-
-/* Increase or decrease dropdown popup width */
-
-.nav-dropdown {
-    min-width: 230px;
-    padding: 10px 0 10px;
-}
-
-/* Remove the default extra margin for the last dropdown menu item */
-
-.nav-dropdown>li:last-child:not(.nav-dropdown-col)>a {
-    margin-bottom: 0;
-}
-
-/* Change the dropdown menu item color and background hover color */
-
-.nav-dropdown>li>a:hover {
-    color: #4600ad;
-    background-color: #fceff8 !important;
-}
-
-/* Change the dropdown menu active link color */
-
-.nav-dropdown li.active>a {
-    color: #ff25c0;
 }
 
 
