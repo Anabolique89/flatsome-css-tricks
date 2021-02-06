@@ -246,11 +246,11 @@ mark {
     content: "ARTICLE"; /* Change the text */
     font-size: 12px; /* Change the font size */
     background-color: #00c980; /* Change the background color */
-    padding: 5px 10px;
+    padding: 5px 10px; /* Adjust box paddings */
     position: absolute;
-    margin-top: -35px;
+    margin-top: -35px; /* Adjust box top margin */
     color: #fff; /* Change the text color */
-    border-radius: 5px;
+    border-radius: 5px; /* Increase or decrease the box radius */
 }
 
 
