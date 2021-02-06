@@ -1,6 +1,6 @@
 # Flatsome CSS Tricks and Fixes
 
-Since a couple of months I am not developing Wordpress websites with Flatsome anymore but today, I have decided to put up a document including the CSS tricks and fixes that I used most during the past year as a farewell gift for the Flatsome Community.
+Since a couple of months I am not developing Wordpress websites with Flatsome anymore but today, I have decided to put it togheter in a document many CSS tricks and fixes that I used most during the past year as a farewell gift for the Flatsome Community.
 
 
 <h3>Disclaimer</h3>
@@ -16,6 +16,6 @@ Since a couple of months I am not developing Wordpress websites with Flatsome an
 
 <h3>How to use tem?</h3>
 
-Just check for the snippet you are interested for, read it carefully, check which properties you will have to edit and paste it in the right CSS editor section. Then edit it and preview it in your browser. In case you are interested in more snippets, do the same, just read, past and edit it one by one. Why? Because in case you have issues, you know which snippet is responsibile and you can easily identify and remove it.
+Just check for the snippet you are interested for, read it carefully, check which properties you will have to edit and paste it in the right CSS editor section. Then edit it and preview it in your browser. In case you are interested in more snippets, do the same, just read, past and edit it one by one. Why? Because in case you have issues, you know which snippet is responsibile and you can easily identify and remove it. You can also paste them directly in your broweser inspection and try them live without modifying your current theme settings.
 
 <b>Do not copy past the entire document in your text editor, you will break your design 100%.</b>
