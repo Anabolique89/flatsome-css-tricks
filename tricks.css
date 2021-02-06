@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color .3s; /* Increase or decrease the timing */
 }
 
-/* Increase items size */
+/* Increase menu items text size */
 /* Note: this code will work if you set from the theme settings the maximum menu items spacing available. */
 
 .nav-size-xlarge > li > a {
@@ -81,15 +81,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /*************** DROPDOWN MENU ***************/
 
-/* Better position the arrow at the right of the menu item */
+/* perfectly position the arrow at the right of the menu item */
 
 .has-dropdown .icon-angle-down {
-    opacity: 1;
+    opacity: 1; /* You can decrease the opacity if you prefer, maximum opacity, no transparency is 1 */
     margin-top: 3px;
     margin-left: 6px;
 }
 
-/* Increase or decrease dropdown popup width */
+/* Increase or decrease dropdown menu width */
 
 .nav-dropdown {
     min-width: 230px; /* Increase or decrease the width */
