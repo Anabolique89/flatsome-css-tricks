@@ -275,16 +275,11 @@ with a specific width and height (in my case is 26px) then, replace the values t
   width: 26px;
 }
 
-/* Remove the overlay for the mobile menu (side menu) */
+/* Remove the overlay for the mobile menu */
+/* This snippet will work only if you are using a sidebar menu */
 
 .main-menu-overlay {
     background-color: transparent;
-}
-
-/* Increase or decrease the mobile menu (side menu) width */
-
-.off-canvas-left .mfp-content {
-    width: 320px;
 }
 
 /* Increase or decrease hamburger icon size */
@@ -312,8 +307,9 @@ with a specific width and height (in my case is 26px) then, replace the values t
     color: #39cccc;
 }
 
-/* Dropdown entries hover color (side menu) */
+/* Dropdown entries hover color */
+/* This snippet will work only if you are using a sidebar menu appearing from right */
 
-.nav-vertical>li>ul li a:hover {
+.nav-vertical > li > ul li a:hover {
     color: #39cccc;
 }
