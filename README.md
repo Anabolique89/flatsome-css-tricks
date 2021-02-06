@@ -13,6 +13,9 @@ Since a couple of months I am not developing Wordpress websites with Flatsome an
 
 <b>4.</b> I have divided the document in two main sections, the first one: "All screens" contains all the snippets that I used to paste inside the first field of the CSS editor, then the second one "Tablet and Below" contains all the snippets which will edit the tablet and mobile specific CSS. 
 
-<b>5.</b> <b> How to use it?</b> Just check for the snippet you are interested for, read it carefully, check which properties you will have to edit and paste it in the right CSS editor section. Then edit it and preview it in your browser. In case you are interested in more snippets, do the same, just read, past and edit it one by one. Why? Because in case you have issues, you know which snippet is responsibile and you can easily identify and remove it.
 
-<b>6.</b> <b>Do not copy past the entire document in your text editor, you will break your design 100%.</b>
+<h3>How to use it?</h3>
+
+Just check for the snippet you are interested for, read it carefully, check which properties you will have to edit and paste it in the right CSS editor section. Then edit it and preview it in your browser. In case you are interested in more snippets, do the same, just read, past and edit it one by one. Why? Because in case you have issues, you know which snippet is responsibile and you can easily identify and remove it.
+
+<b>Do not copy past the entire document in your text editor, you will break your design 100%.</b>
