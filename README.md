@@ -1,6 +1,6 @@
 # Flatsome CSS Tricks and Fixes
 
-Since a couple of months I am not developing Wordpress websites with Flatsome anymore but today, I have decided to put up a document including the CSS tricks and fixes that I used most during the past years as a farewell gift for the Flatsome Community.
+Since a couple of months I am not developing Wordpress websites with Flatsome anymore but today, I have decided to put up a document including the CSS tricks and fixes that I used most during the past year as a farewell gift for the Flatsome Community.
 
 
 <h3>Disclaimer</h3>
