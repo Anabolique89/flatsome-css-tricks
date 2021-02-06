@@ -232,6 +232,12 @@ mark {
     border: 3px solid #ff25c0; /* Set border width and color */
 }
 
+/***************************** REMOVE BORING DIVIDER BETWEEN WIDGETS, PRODUCTS AND BLOG POST TITLES AND DESCRIPTION *****************************/
+
+.is-divider {
+    display: none;
+}
+
 
 /***************************** COOKIE BAR NOTICE BUTTON STYLING *****************************/
 
