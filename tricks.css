@@ -308,24 +308,29 @@ you will need to inspect again the menu with your browser and replace the ID. */
   width: 26px; /* Increase or decrease size */
 }
 
-/* Remove the overlay for the mobile menu */
-/* This snippet will work only if you are using a sidebar menu */
 
-.main-menu-overlay {
-    background-color: transparent; /* Set a color or leave transparent */
-}
+/* Increase or decrease hamburger icon size and change color */
 
-/* Increase or decrease hamburger icon size */
-
-.nav > li> a > i.icon-menu {
+.nav > li > a > i.icon-menu {
     font-size: 1.8em; /* Increase or decrease size */
+    color: #ececec; /* Change color */
 }
+
+
+/* Change close icon color */
+
+.mfp-ready .mfp-close {
+    opacity: 1; /* Decrease opacity */
+    color: #000 !important; /* Change color */
+}
+
 
 /* Increase or decrease mobile menu social icons size */
 
 .html .social-icons {
     font-size: 1.6em; /* Increase or decrease size */
 }
+
 
 /* Increase mobile menu items text size */
 
@@ -334,15 +339,24 @@ you will need to inspect again the menu with your browser and replace the ID. */
     font-size: 1.1em; /* Increase or decrease font size */
 }
 
+
 /* Menu entries hover color */
 
 .nav > li > a:hover, .nav > li.active > a{
     color: #39cccc; /* Change color */
 }
 
+
 /* Dropdown entries hover color */
 /* This snippet will work only if you are using a sidebar menu appearing from right */
 
 .nav-vertical > li > ul li a:hover {
     color: #39cccc; /* Change color */
+}
+
+/* Remove the overlay for the mobile menu */
+/* This snippet will work only if you are using a sidebar menu */
+
+.main-menu-overlay {
+    background-color: transparent; /* Set a color or leave transparent */
 }
