@@ -232,10 +232,25 @@ mark {
     border: 3px solid #ff25c0; /* Set border width and color */
 }
 
+
 /***************************** REMOVE BORING DIVIDER BETWEEN WIDGETS, PRODUCTS AND BLOG POST TITLES AND DESCRIPTION *****************************/
 
 .is-divider {
     display: none;
+}
+
+
+/***************************** ADD A CUSTOMIZED TEXT BOX BETWEEN POST FEATURED IMAGE AND POST TITLE IN THE POST STEAM *****************************/
+
+.box-text h5::before {
+    content: "ARTICLE"; /* Change the text */
+    font-size: 12px; /* Change the font size */
+    background-color: #00c980; /* Change the background color */
+    padding: 5px 10px;
+    position: absolute;
+    margin-top: -35px;
+    color: #fff; /* Change the text color */
+    border-radius: 5px;
 }
 
 
