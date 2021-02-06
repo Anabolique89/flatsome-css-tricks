@@ -332,7 +332,7 @@ you will need to inspect again the menu with your browser and replace the ID. */
 }
 
 
-/* Increase mobile menu items text size */
+/* Increase mobile menu items font size */
 
 .nav > li > a {
     text-transform: none;
@@ -344,6 +344,14 @@ you will need to inspect again the menu with your browser and replace the ID. */
 
 .nav > li > a:hover, .nav > li.active > a{
     color: #39cccc; /* Change color */
+}
+
+/* Change fullscreen menu color and opacity */
+/* This snippet will work only if you have set in Flatsome your mobile menu as fullscreen */
+
+.mfp-bg.off-canvas-center:not(.dark) {
+    background-color: #fff; /* Change color */
+    opacity: 1; /* Decrease opacity */
 }
 
 
