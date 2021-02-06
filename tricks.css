@@ -1,0 +1,291 @@
+/********************************************************** ALL SCREENS **********************************************************/
+
+/***************************** CUSTOM FONTS *****************************/
+
+/* Fonts declaration */
+
+@font-face { 
+    font-family: Karla; 
+    src: url(https://yourwebsite.com/fonts/Karla-Regular.woff);
+    font-weight: 400;
+  font-display: swap;
+}
+
+@font-face { 
+    font-family: Karla; 
+    src: url(https://yourwebsite.com/fonts/Karla-Bold.woff);
+    font-weight: 700;
+  font-display: swap;
+}
+
+/* Apply the new fonts */
+
+body { 
+    font-family: "Karla", Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Karla", Arial, sans-serif;
+    font-weight: 700;
+}
+
+.nav > li > a {
+    font-family: "Karla", Arial, sans-serif;
+    font-weight: 700;
+}
+
+/***************************** DISABLE BORING SOCIAL ICONS TOOLTIP *****************************/
+
+.tooltipster-base {
+    display: none !important;
+}
+
+/***************************** STICKY HEADER *****************************/
+
+.header-wrapper.stuck {
+    box-shadow: none; /* Remove shadow */
+    background-color: white; /* Change background color */
+    border-bottom: 1px solid #d3d3d3; /* Change border bottom color */
+}
+
+/***************************** FOOTER STYLING *****************************/
+
+/* Permanently disable the absolute (copyright) footer */
+
+.absolute-footer {
+    display: none;
+}
+
+/* Remove footer default's top border */
+
+.footer-1, .footer-2 {
+    border-top: 0;
+}
+
+
+/***************************** ACCORDION STYLING *****************************/
+
+/* Move the arrow on the right */
+
+.accordion .toggle {
+    left: unset;
+    right: 0;
+}
+
+/* Set a better accordion inner padding */
+
+.accordion-inner {
+    padding: 10px 40px 0 5px;
+}
+
+/* Style the accordion title */
+
+.accordion-title {
+    border-top: 1px solid #ddd;
+    padding: 15px 40px 15px 0;
+}
+
+/* Style the accordion active title */
+
+.accordion-title.active {
+    background-color: transparent;
+    border-color: #ff25c0;
+    color: #ff25c0;
+    border-top:3px solid #ff25c0;
+    padding-left: 5px;
+}
+
+
+/***************************** MARKER *****************************/
+
+/* Change marker background color and text color, when used from the text editor */
+
+mark {
+    background-color: #39cccc;
+    color: #fff;
+}
+
+
+/***************************** SLIDER *****************************/
+
+/* Add border radius to slider's images, increase or decrease the value as you wish */
+
+.flickity-viewport {
+    border-radius: 10px;
+}
+
+/* Change previous/next arrow color */
+
+.flickity-prev-next-button svg, .flickity-prev-next-button .arrow {
+    border-color: currentColor;
+    fill: #777;
+}
+
+/* Change dots color */
+
+.flickity-page-dots .dot.is-selected {
+    background-color: #00acad;
+}
+
+.flickity-page-dots .dot {
+    border: 3px solid #00acad;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+/***************************** MENU DROPDOWN STYLING *****************************/
+
+/* Better position the arrow at the right of the menu item */
+
+.has-dropdown .icon-angle-down {
+    opacity: 1;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+/* Increase or decrease dropdown popup width */
+
+.nav-dropdown {
+    min-width: 230px;
+    padding: 10px 0 10px;
+}
+
+/* Remove the default extra margin for the last dropdown menu item */
+
+.nav-dropdown>li:last-child:not(.nav-dropdown-col)>a {
+    margin-bottom: 0;
+}
+
+/* Change the dropdown menu item color and background hover color */
+
+.nav-dropdown>li>a:hover {
+    color: #4600ad;
+    background-color: #fceff8 !important;
+}
+
+/* Change the dropdown menu active link color */
+
+.nav-dropdown li.active>a {
+    color: #ff25c0;
+}
+
+
+/***************************** LIGHTBOX *****************************/
+
+/* Remove lightbox padding */
+
+.mfp-container {
+   padding: 0 !important;
+}
+
+/* Hide lightbox counter */
+
+.mfp-counter {
+    display: none;
+}
+
+
+/***************************** EMBED VIDEO *****************************/
+
+.video-fiw {
+    border-radius: 10px !important; /* Set border radius */
+    border: 3px solid #ff25c0; /* Set border width and color */
+}
+
+
+/***************************** COOKIE BAR NOTICE BUTTON STYLING *****************************/
+
+.flatsome-cookies__more-btn {
+    background-color: #4600ad !important;
+    border-radius: 100px;
+}
+
+ .flatsome-cookies__accept-btn {
+    background-color: #ff25c0 !important;
+    border-radius: 100px;
+}
+
+
+/********************************************************** TABLETS AND DOWN **********************************************************/
+
+/***************************** LAYOUT *****************************/
+
+/* Flatsome has a default value for right/left padding of 20px, which in many cases can't be enough,
+the first value represents the top padding, the second value (30px) represents the left-right padding, the last the bottom padding,
+you can increase or decrease it as you prefer */
+
+.col {
+    padding: 0 30px 20px;
+}
+
+/***************************** LOGO *****************************/
+
+/* Force the desidered logo width on tablets/mobile */
+
+#logo {
+    width: 120px;
+}
+
+/***************************** MOBILE MENU *****************************/
+
+/* Add an icon before each menu entry */
+/* Inspect your mobile menu with your browser, each menu item has an unique ID (in my case is 44), then replace it and add your own svg icon,
+you will need to paste again the code for each menu item you want an icon applied, when you create your icon with illustrator remember to design it
+with a specific width and height (in my case is 26px) then, replace the values to match your size. */
+
+#menu-item-44:before {
+  margin-left: 30px;
+  display: block;
+  content: ' ';
+  background-image: url('https://girlsinitaly.com/resources/uploads/2020/10/people.svg');
+  background-size: 26px 26px;
+  height: 26px;
+  width: 26px;
+}
+
+/* Remove the overlay for the mobile menu (side menu) */
+
+.main-menu-overlay {
+    background-color: transparent;
+}
+
+/* Increase or decrease the mobile menu (side menu) width */
+
+.off-canvas-left .mfp-content {
+    width: 320px;
+}
+
+/* Increase or decrease hamburger icon size */
+
+.nav > li> a > i.icon-menu {
+    font-size: 1.8em;
+}
+
+/* Increase or decrease mobile menu social icons size */
+
+.html .social-icons {
+    font-size: 1.6em;
+}
+
+/* Increase mobile menu items text size */
+
+.nav > li > a {
+    text-transform: none;
+    font-size: 1.1em;
+}
+
+/* Menu entries hover color */
+
+.nav > li > a:hover, .nav > li.active > a{
+    color: #39cccc;
+}
+
+/* Dropdown entries hover color (side menu) */
+
+.nav-vertical>li>ul li a:hover {
+    color: #39cccc;
+}
