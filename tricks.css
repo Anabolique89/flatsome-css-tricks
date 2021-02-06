@@ -20,7 +20,7 @@
 
 /* Apply the new fonts */
 
-body { 
+body, p { 
     font-family: "Karla", Arial, sans-serif;
     font-weight: 400;
 }
