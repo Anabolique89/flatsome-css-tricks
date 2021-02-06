@@ -277,7 +277,7 @@ you will need to paste again the code for each menu item you want an icon applie
 with a specific width and height (in my case is 26px) then, replace the values to match your size. If you delete that menu item from Menu > Appearance,
 you will need to inspect again the menu with your browser and replace the ID. */
 
-#menu-item-44:before {
+#menu-item-44::before {
   margin-left: 30px;
   display: block;
   content: ' ';
