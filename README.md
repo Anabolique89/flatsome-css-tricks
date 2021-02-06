@@ -10,4 +10,8 @@ Since a couple of months I am not developing Wordpress websites with Flatsome an
 
 <b>3.</b> The snippets basically contain fixes and basic customization for the most important elements like menu, header, columns, slider... To edit the colours you will need to enter your custom color HEX codes (you can pick them from here https://htmlcolorcodes.com/), to edit borders, spacings, font sizes you will need to enter the value in pixels or em.
 
-<b>4.</b> DO NOT COPY PASTE THE ENTIRE TEXT IN YOUR EDITOR, YOU WILL BREAK YOUR DESIGN 100%, I have divided the document in two main sections, the first one "ALL SCREENS" contains all the snippets that I used to paste inside the first field of the CSS editor, then the second one "TABLET AND BELOW" contains all the snippets which will edit the tablet and mobile specific CSS. 
+<b>4.</b> I have divided the document in two main sections, the first one "ALL SCREENS" contains all the snippets that I used to paste inside the first field of the CSS editor, then the second one "TABLET AND BELOW" contains all the snippets which will edit the tablet and mobile specific CSS. 
+
+<b>5. </b> <b>Do not copy past the entire document in your text editor, you will break your design 100%.</b>
+
+<b>6. </b> <b> How to use it?</b> Just check for the snippet you are interested for, read it carefully, check which properties you will have to edit and paste it in the right CSS editor section. Then edit it and preview it in your browser.
